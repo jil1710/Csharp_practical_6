@@ -1,10 +1,10 @@
 ﻿using Csharp_practical_6;
 
-class Program : ProcessBusinessLogic
+class Program
 {
     public static void Main(string[] args)
     {
-        Program program = new();
+        ProcessBusinessLogic program = new();
         program.ProcessComplete += bl_ProcessCompleted;
         program.StartProcess();
     }
